@@ -18,12 +18,52 @@
 
 ## نصب
 
-```bash
-pip install customtkinter Pillow cryptography numpy
-python steganohide.py
-```
+### پیش‌نیازها
 
-وابستگی‌ها در اجرای اول در صورت وجود نداشتن به صورت خودکار نصب می‌شوند.
+- **پایتون نسخه 3.8 یا بالاتر** — دانلود از [python.org](https://www.python.org/downloads/)
+- **pip** — مدیر بسته پایتون (به صورت خودکار با پایتون نصب می‌شود)
+
+### شروع سریع (توصیه شده)
+
+1. **دانلود پروژه:**
+   ```bash
+   git clone https://github.com/0antuosh0-create/hide-and-seek.git
+   cd hide-and-seek
+   ```
+
+2. **نصب وابستگی‌ها:**
+   ```bash
+   pip install customtkinter Pillow cryptography numpy
+   ```
+
+3. **اجرای برنامه:**
+   ```bash
+   python steganohide.py
+   ```
+
+### روش جایگزین: دانلود دستی
+
+1. فایل `steganohide.py` را از این مخزن دانلود کنید
+2. ترمینال/خط فرمان را در پوشه دانلود باز کنید
+3. وابستگی‌ها را نصب کنید:
+   ```bash
+   pip install customtkinter Pillow cryptography numpy
+   ```
+4. برنامه را اجرا کنید:
+   ```bash
+   python steganohide.py
+   ```
+
+### نصب خودکار
+
+وابستگی‌ها در اولین اجرا در صورت وجود نداشتن به صورت خودکار نصب می‌شوند.
+
+### عیب‌یابی
+
+- **"pip not found"** — مطمئن شوید پایتون به PATH سیستم اضافه شده است
+- **"Permission denied"** — `pip install --user` را امتحان کنید یا به عنوان administrator اجرا کنید
+- **"Module not found"** — ابتدا `pip install --upgrade pip` را اجرا کنید
+- **هشدار Windows SmartScreen** — "More info" → "Run anyway" را کلیک کنید
 
 ## نحوه کار
 

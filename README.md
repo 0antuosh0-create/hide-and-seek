@@ -18,12 +18,52 @@ A modern Python desktop application for image steganography. Hide encrypted mess
 
 ## Installation
 
-```bash
-pip install customtkinter Pillow cryptography numpy
-python steganohide.py
-```
+### Prerequisites
 
-Dependencies are auto-installed on first run if missing.
+- **Python 3.8 or higher** — Download from [python.org](https://www.python.org/downloads/)
+- **pip** — Python package manager (comes with Python)
+
+### Quick Start (Recommended)
+
+1. **Download the project:**
+   ```bash
+   git clone https://github.com/0antuosh0-create/hide-and-seek.git
+   cd hide-and-seek
+   ```
+
+2. **Install dependencies:**
+   ```bash
+   pip install customtkinter Pillow cryptography numpy
+   ```
+
+3. **Run the application:**
+   ```bash
+   python steganohide.py
+   ```
+
+### Alternative: Manual Download
+
+1. Download `steganohide.py` from this repository
+2. Open a terminal/command prompt in the download folder
+3. Install dependencies:
+   ```bash
+   pip install customtkinter Pillow cryptography numpy
+   ```
+4. Run the app:
+   ```bash
+   python steganohide.py
+   ```
+
+### Auto-Install
+
+Dependencies are automatically installed on first run if missing. The app will prompt you to install them.
+
+### Troubleshooting
+
+- **"pip not found"** — Make sure Python is added to your system PATH
+- **"Permission denied"** — Try `pip install --user` or run as administrator
+- **"Module not found"** — Run `pip install --upgrade pip` first
+- **Windows SmartScreen warning** — Click "More info" → "Run anyway"
 
 ## How It Works
 

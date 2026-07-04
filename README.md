@@ -1,5 +1,7 @@
 # Hide and Seek
 
+**English** | [فارسی](README.fa.md)
+
 A modern Python desktop application for image steganography. Hide encrypted messages inside images using LSB encoding with optional AES-256 encryption.
 
 ## Features
